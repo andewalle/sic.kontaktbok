@@ -3,7 +3,7 @@ package kontaktbok.klasser;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class Sök {
+/*public class Sök {
 
     public void sökPerson(){
 
@@ -21,4 +21,4 @@ public class Sök {
 
 
     }
-}
+}*/
