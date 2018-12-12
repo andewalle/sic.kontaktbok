@@ -11,7 +11,7 @@ import java.util.Scanner;
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Vill du söka på 1. Person eller 2. Företag?");
+        System.out.println("Vill du söka på 1. Company eller 2. Företag?");
 
         int val = sc.nextInt();
 
