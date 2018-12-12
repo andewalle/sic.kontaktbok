@@ -1,6 +1,7 @@
 package kontaktbok.klasser.Test;
 
 import kontaktbok.klasser.Person;
+import org.junit.jupiter.api.Test;
 
 public class PersonTest {
 
@@ -9,6 +10,7 @@ public class PersonTest {
         String input;
         Integer number;
         String email;
+
 
 
         Person person = null;
@@ -135,7 +137,7 @@ public class PersonTest {
         }
 
 
-        
+
 
         System.out.println();
         System.out.println("Test 3:");
@@ -178,5 +180,11 @@ public class PersonTest {
             System.out.println(person3);
             System.out.println();
         }
+    }
+
+    @Test
+    public void testNumber()
+    {
+        
     }
 }

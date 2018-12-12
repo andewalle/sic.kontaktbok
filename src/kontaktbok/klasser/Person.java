@@ -2,7 +2,7 @@ package kontaktbok.klasser;
 
 import java.text.DecimalFormat;
 
-public class Person {
+public class Person implements Contact{
 
     private String firstName;
     private String lastName;
