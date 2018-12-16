@@ -3,7 +3,7 @@ package kontaktbok.klasser;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-    public class Lista {
+    public class List {
         ArrayList<Person> personList = new ArrayList<Person>();
         public void listPerson(){
 
@@ -16,7 +16,7 @@ import java.util.Iterator;
         }
         ArrayList<Business> businessList = new ArrayList<Business>();
 
-        public void listCompany(){
+        public void listBusiness(){
 
             Iterator<Business> itc = businessList.iterator();
             int i = 1;
